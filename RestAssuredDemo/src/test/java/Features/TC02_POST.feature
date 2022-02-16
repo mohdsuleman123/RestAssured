@@ -1,4 +1,4 @@
-@UserInfoAPI2  @APISuite
+@UserInfoAPI2  @APISuite @POST
 Feature: User_Info_APIPOst
 
 

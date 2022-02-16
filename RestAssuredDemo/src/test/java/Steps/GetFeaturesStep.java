@@ -51,6 +51,9 @@ public void i_should_receive_status_code_as(Integer int1) {
 		String id=resp.jsonPath().getString("data.id");
 		System.out.println("The first name is: " +firstname);
 		System.out.println("The id is: " +id);
+		Assert.assertEquals("Byron",firstname);
+		Assert.assertEquals("10", id);
+		
 	    
 	}
 	
